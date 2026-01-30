@@ -4,13 +4,13 @@ import Nav from "./Nav";
 import Blanck from "./Blanck";
 
 export default function Layout() {
-  let show = false;
-  let updationDate = new Date("2025-12-07");
-  let presentDate = new Date();
+  let show = true;
+  // let updationDate = new Date("2025-12-07");
+  // let presentDate = new Date();
 
-  if (presentDate < updationDate) {
-    show = true;
-  }
+  // if (presentDate < updationDate) {
+  //   show = true;
+  // }
 
   return (
     <main className="bg-bg ">
